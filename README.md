@@ -1,4 +1,3 @@
-````markdown
 # 🌤 Weather Checker App
 
 A simple Node.js and Express web application that allows users to check real-time weather in major cities using the Open-Meteo API. Built with EJS templating and styled with CSS.
@@ -128,4 +127,3 @@ This project is open for personal, educational, and non-commercial use.
 ![alt text](public/images/image-5.png)
 
 ---
-````
