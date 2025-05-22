@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+
+<section class="form-section">
+  <form action="/" method="POST" class="form">
+    <label for="city">Select a City:</label>
+    <select name="city" id="city" required>
+      <option value="">--Choose--</option>
+      <option value="london">London</option>
+      <option value="new_york">New York</option>
+      <option value="tokyo">Tokyo</option>
+      <option value="paris">Paris</option>
+      <option value="istanbul">Istanbul</option>
+    </select>
+    <button type="submit">Check Weather</button>
+  </form>
+</section>
+
+<section class="weather-display">
+  <% if (locals.error) { %>
+  <p class="error"><%= error %></p>
+  <% } %> <% if (locals.weather) { %>
+  <h2>🌤 Weather in <%= weather.city %></h2>
+  <p>Temperature: <%= weather.temp %>°C</p>
+  <p>Condition: <%= weather.description %></p>
+  <!-- Add an image here -->
+  <!-- Example: <img src="/images/london.jpg" alt="London Weather"> -->
+  <% } %>
+</section>
+<%- include("partials/footer") %>

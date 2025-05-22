@@ -1,0 +1,55 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+
+# Logs
+logs
+*.log
+log.txt
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Dependency directories (just in case)
+bower_components/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+
+# EJS compiled cache (if used)
+*.ejs~
+
+# Obsidian (if using it for notes)
+.obsidian/
+
+# Miscellaneous
+*.swp
+*.swo
